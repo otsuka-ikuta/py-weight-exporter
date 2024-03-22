@@ -6,6 +6,10 @@
 python3 -m venv venv
 source bin/activate
 pip install flask
+pip install pyinstaller
+
+pyinstaller -F -c py-weight-exporter.py
+./deploy.sh
 ```
 
 ## 校正手順
