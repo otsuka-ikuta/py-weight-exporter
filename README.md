@@ -8,7 +8,6 @@ source bin/activate
 pip install flask
 pip install pyinstaller
 
-pyinstaller -F -c py-weight-exporter.py
 ./deploy.sh
 ```
 
